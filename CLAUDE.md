@@ -3,6 +3,24 @@
 
 ---
 
+## Synchronisation de ce fichier
+
+Ce fichier est versionné sur github.com/Vironflo/claude-config (privé).
+
+**Mise à jour automatique** — dès que ce fichier est modifié, committer et pusher :
+```bash
+cd C:/Users/VFlor/.claude && git add CLAUDE.md && git commit -m "chore: update rules" && git push
+```
+
+**Nouvelle machine** (rare) — cloner et lier :
+```bash
+git clone https://github.com/Vironflo/claude-config.git
+copy claude-config\CLAUDE.md %USERPROFILE%\.claude\CLAUDE.md
+```
+Puis configurer `gh auth login` et c'est prêt.
+
+---
+
 ## Autonomie — NE PAS demander de permission pour
 
 - Lire des fichiers
