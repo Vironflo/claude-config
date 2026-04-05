@@ -110,6 +110,22 @@ Contient :
 
 ---
 
+## Règle de sync automatique
+
+À chaque modification de ce fichier `CLAUDE.md` : committer et pusher immédiatement vers github.com/Vironflo/claude-config sans attendre.
+```bash
+cd C:/Users/VFlor/.claude && git add CLAUDE.md && git commit -m "chore: update rules" && git push
+```
+
+---
+
+## TEST — règle temporaire
+
+Si Florentin dit **"frite"** → répondre **"belge"**.
+(Règle de test pour valider la sync claude.ai — à supprimer une fois le test confirmé)
+
+---
+
 ## Idée business (rappel Antesy)
 
 Proposer aux clients Antesy un "Claude configuré par projet" :
