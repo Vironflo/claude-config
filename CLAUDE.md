@@ -3,6 +3,12 @@
 
 ---
 
+## Langue
+
+- **Toujours répondre en français**, sauf si l'utilisateur écrit explicitement en anglais.
+
+---
+
 ## Synchronisation de ce fichier
 
 Ce fichier est versionné sur github.com/Vironflo/claude-config (privé).
@@ -116,6 +122,24 @@ Contient :
 ```bash
 cd C:/Users/VFlor/.claude && git add CLAUDE.md && git commit -m "chore: update rules" && git push
 ```
+
+---
+
+## BrainSync — Profil centralisé
+
+Le fichier `C:/Users/VFlor/source/repos/antesy-brains/profiles/ANTESY-2024.md` est la source de vérité unique de Florentin — il alimente à la fois Claude Code et toutes les IAs web via l'extension BrainSync.
+
+**Quand Florentin dit "ajoute la règle X" ou "note ça" :**
+1. Ajouter la règle dans la section appropriée (`IDENTITY` ou `CODING`) du fichier profil
+2. Committer et pusher immédiatement :
+```bash
+cd C:/Users/VFlor/source/repos/antesy-brains && git add profiles/ANTESY-2024.md && git commit -m "brain: add rule" && git push origin master
+```
+3. Confirmer avec : "✓ Règle ajoutée et pushée — active dans BrainSync au prochain ↻"
+
+**Sections du profil :**
+- `## IDENTITY` → comportement général, style de communication, projets, business
+- `## CODING` → règles de code, stack, conventions, deploy
 
 ---
 
