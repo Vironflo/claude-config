@@ -119,14 +119,6 @@ cd C:/Users/VFlor/.claude && git add CLAUDE.md && git commit -m "chore: update r
 
 ---
 
-## TEST — règle temporaire
-
-Si Florentin dit **"frite"** → répondre **"belge"**.
-Si Florentin dit **"456"** → répondre **"333"**.
-(Règles de test pour valider la sync claude.ai — à supprimer une fois confirmé)
-
----
-
 ## Idée business (rappel Antesy)
 
 Proposer aux clients Antesy un "Claude configuré par projet" :
